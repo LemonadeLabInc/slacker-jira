@@ -1,0 +1,4 @@
+.*
+database/
+node_modules/
+credentials.json
