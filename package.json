@@ -6,7 +6,8 @@
   "author": "Pier Fumagalli <pier@lemona.de>",
   "license": "MIT",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "start": "node index.js configuration.json credentials.json"
   },
   "dependencies": {
     "errorlog": "^1.4.0",
