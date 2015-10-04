@@ -29,7 +29,7 @@ const feeds = configuration.feeds || [];
 delete configuration.feeds;
 
 // Our database
-const db = level(configuration.db || './db/');
+const db = level(configuration.database || './db/');
 delete configuration.db;
 
 // Our refresh interval (default to 1 minute)
