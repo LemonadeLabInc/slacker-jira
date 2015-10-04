@@ -1,0 +1,13 @@
+{
+  "channel":  "@pier",
+  "icon_url": "https://slack.global.ssl.fastly.net/66f9/img/services/jira_128.png",
+  "delay":    100,
+  "database": "./database/",
+  "interval": "1 min",
+
+  "feeds": [ {
+    "id": "MxSx8vtDaT4togJ8pTMBrQuXfehnYGJ7",
+    "query": "",
+    "cutoff": "2015-10-04T00:00:00.000Z"
+  } ]
+}
