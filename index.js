@@ -39,6 +39,9 @@ delete configuration.interval;
 // Default cutoff time is "now" as an ISO string
 configuration.cutoff = (configuration.cutoff ? new Date(configuration.cutoff) : new Date()).toISOString();
 
+// Default delay of 100 ms
+configuration.delay= configuration.delay ? ms('' + configuration.delay) : 100;
+
 // Merge in our feeds and prepare processors...
 if (feeds.length < 1) throw new Error('No feeds to fetch');
 const processors = [];
