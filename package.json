@@ -1,0 +1,23 @@
+{
+  "name": "slacker-jira",
+  "version": "1.0.0",
+  "description": "Better notifications from Jira to Slack",
+  "main": "index.js",
+  "author": "Pier Fumagalli <pier@lemona.de>",
+  "license": "MIT",
+  "scripts": {
+    "test": "gulp"
+  },
+  "dependencies": {
+    "errorlog": "^1.4.0",
+    "level": "^1.3.0",
+    "ms": "^0.7.1",
+    "node-slack": "0.0.7",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
+  }
+}
