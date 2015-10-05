@@ -78,7 +78,7 @@ overridden in each field definition.
 License (MIT)
 -------------
 
-Copyright (c) 2015 USRZ.com and Pier Paolo Fumagalli
+Copyright (c) 2015 Lemonade Labs, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
