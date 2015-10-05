@@ -16,8 +16,8 @@
     "query":   "",
     "cutoff":  "2015-10-04T00:00:00.000Z"
   }, {
-    "id":      "niuZlpi4wzS6cfczEuFTeYvfHir0fcJ1",
-    "channel": "#software-updates",
+    "id":      "ZzY29t3ULAyINvEKMtLYL8F5otJkeFJB",
+    "channel": "#hardware-updates",
     "query":   "project = LTRP AND component in (EE, ID, ME)",
     "cutoff":  "2015-10-04T00:00:00.000Z"
 
