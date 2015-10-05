@@ -1,13 +1,25 @@
 {
-  "channel":  "@pier",
+  "channel":  "#software-updates",
   "icon_url": "https://slack.global.ssl.fastly.net/66f9/img/services/jira_128.png",
   "delay":    100,
   "database": "./database/",
   "interval": "1 min",
+  "cutoff":   "2015-10-05T00:00:00.000Z",
 
   "feeds": [ {
-    "id": "MxSx8vtDaT4togJ8pTMBrQuXfehnYGJ7",
-    "query": "",
-    "cutoff": "2015-10-04T00:00:00.000Z"
+    "id":      "MxSx8vtDaT4togJ8pTMBrQuXfehnYGJ7",
+    "query":   "",
+    "cutoff":  "2015-10-04T00:00:00.000Z"
+  }, {
+    "id":      "s0eShA9h7cWK1DmhYGbyXFmMLjvKWpaT",
+    "channel": "@pier",
+    "query":   "",
+    "cutoff":  "2015-10-04T00:00:00.000Z"
+  }, {
+    "id":      "niuZlpi4wzS6cfczEuFTeYvfHir0fcJ1",
+    "channel": "#software-updates",
+    "query":   "project = LTRP AND component in (EE, ID, ME)",
+    "cutoff":  "2015-10-04T00:00:00.000Z"
+
   } ]
 }
