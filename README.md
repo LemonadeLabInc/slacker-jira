@@ -21,7 +21,7 @@ Git clone this:
 git clone git@github.com:LemonadeLabInc/slacker-jira.git
 ```
 
-Then modify the [`configuration.json`](configuration.json) file according to
+Then modify the [`configuration.json`](configuration-sample.json) file according to
 your needs, add a `credentials.json` file containing all your secrets and:
 
 ```bash
@@ -40,7 +40,7 @@ starting.
 
 ### Global configurations
 
-Normally found in [`configuration.json`](configuration.json):
+Normally found in [`configuration.json`](configuration-sample.json):
 
 * `database`: _(required)_ The local directory for the cache db.
 * `feeds`: _(required)_ An array of feed configurations (see below).

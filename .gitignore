@@ -1,4 +1,6 @@
 .*
 database/
 node_modules/
+configuration.json
 credentials.json
+*.log
